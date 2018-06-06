@@ -11,7 +11,7 @@ the burglars, displaying a warning when this item is found on the screen or stor
 I use images of axes and hammers with bounding boxes from [ImageNet](http://image-net.org). Unfortunately, I didn't find bounding boxes for nail-drawer so I had to do it myself with [labelImg](https://github.com/tzutalin/labelImg).
 Total I have ~1500 images. About 90% I used for train.
 # Model
-I used [TensorFlow object detection API](https://github.com/tensorflow/models/blob/master/research/object_detection) and pre-trained model ssd_mobilenet_v1_coco
+I used [TensorFlow object detection API](https://github.com/tensorflow/models/blob/master/research/object_detection) and pre-trained model ssd_mobilenet_v1_coco. It trained ~12 hours
 # Results
 As you can see,model works not bad, but it need more time and images for training.
 <p align="center">
