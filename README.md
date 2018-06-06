@@ -15,7 +15,7 @@ I used [TensorFlow object detection API](https://github.com/tensorflow/models/bl
 # Results
 As you can see,model works not bad, but it need more time and images for training.
 <p align="center">
-  <img src="https://github.com/valukov-alex/burglars-detection/blob/master/results/Figure_1.png" width=320 height=240>
-  <img src="https://github.com/valukov-alex/burglars-detection/blob/master/results/Figure_2.png" width=320 height=240>
+  <img src="https://github.com/valukov-alex/burglars-detection/blob/master/results/Figure_1.png" width=480 height=360>
+  <img src="https://github.com/valukov-alex/burglars-detection/blob/master/results/Figure_2.png" width=480 height=360>
 </p>
     
