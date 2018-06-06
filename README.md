@@ -18,6 +18,7 @@ As you can see,model works not bad, but it need more time and images for trainin
   <img src="https://github.com/valukov-alex/burglars-detection/blob/master/results/Figure_1.png" width=430 height=330>
   <img src="https://github.com/valukov-alex/burglars-detection/blob/master/results/Figure_2.png" width=430 height=330>
 </p>
+
 # Installation
 
 ## Dependencies
@@ -33,7 +34,6 @@ Tensorflow Object Detection API depends on the following libraries:
 *   Matplotlib
 *   Tensorflow
 *   Cython
-*   cocoapi
 
 For detailed steps to install Tensorflow, follow the [Tensorflow installation
 instructions](https://www.tensorflow.org/install/). A typical user can install
@@ -100,6 +100,11 @@ to avoid running this manually, you can add it as a new line to the end of your
 # From /burglars-detection/
 python3 start.py
 ```
-You can change path to image
-https://github.com/valukov-alex/burglars-detection/blob/a67f98399f078943d5bbcf6d0608bf0133ed7fed/start.py#L41-L43
+You can change path to image in start.py
+
+``` bash
+#Path to image
+PATH_TO_TEST_IMAGES_DIR = 'test_images'
+TEST_IMAGE_PATHS =  os.path.join(PATH_TO_TEST_IMAGES_DIR, 'image3.jpg')
+```
 
