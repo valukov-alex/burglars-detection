@@ -1,0 +1,26 @@
+<annotation>
+	<folder>nail-drawer</folder>
+	<filename>n03138344_11443.JPEG</filename>
+	<path>/home/alex/SAP internship/DS_Challenge/imagenet/nail-drawer/n03138344_11443.JPEG</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>247</width>
+		<height>198</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>nail-drawer</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3</xmin>
+			<ymin>55</ymin>
+			<xmax>243</xmax>
+			<ymax>169</ymax>
+		</bndbox>
+	</object>
+</annotation>
